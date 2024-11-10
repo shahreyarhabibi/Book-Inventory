@@ -1,0 +1,18 @@
+version: '3.8'  # Specify the version of Docker Compose
+
+services:
+  frontend:
+    build:
+      context: ./frontend  # Path to the frontend directory
+      dockerfile: Dockerfile  # Specify the Dockerfile for the frontend
+    ports:
+      - "3000:3000"  # Map port 3000 on the host to port 3000 in the container
+    command: npm run dev  # Command to run the frontend application
+
+  backend:
+    build:
+      context: ./backend  # Path to the backend directory
+      dockerfile: Dockerfile  # Specify the Dockerfile for the backend
+    ports:
+      - "3001:3001"  # Map port 3001 on the host to port 3001 in the container
+    command: npm start  # Command to run the backend application

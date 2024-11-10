@@ -63,7 +63,7 @@ The Book Management System is a full-stack application designed to manage a book
 
 ### API Documentation
 
-The API documentation is available via Swagger UI at http://localhost:3000/api-docs. It includes details on the available endpoints, request/response formats, and error handling.
+The API documentation is available via Swagger UI at http://localhost:3001/api-docs. It includes details on the available endpoints, request/response formats, and error handling.
 
 ### Dockerization
 

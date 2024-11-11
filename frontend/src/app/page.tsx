@@ -90,10 +90,12 @@ const Page = () => {
   return (
     <div className="relative min-h-screen flex flex-col pt-8">
       <title>Book Inventory By Ali Reza</title> {/* Page title */}
-      <div className="absolute inset-0 bg-[url('/assets/image/library-1.jpg')] bg-center bg-cover opacity-50 blur-sm"></div>
-      {/* Background image */}
-      <div className="relative z-10"></div>{" "}
-      {/* Layer for content above the background */}
+      <div className="absolute inset-0 bg-[url('/assets/image/library-1.jpg')] bg-center bg-cover blur-sm">
+        {/* Overlay */}
+        <div className="absolute inset-0 bg-black opacity-50"></div>
+        {/* Background image */}
+        <div className="relative z-10">{/* Your content goes here */}</div>
+      </div>
       {/* Error Alert */}
       {error && showErrorAlert && (
         <div

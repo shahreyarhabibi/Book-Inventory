@@ -90,11 +90,11 @@ const Page = () => {
   return (
     <div className="relative min-h-screen flex flex-col pt-8">
       <title>Book Inventory By Ali Reza</title> {/* Page title */}
-      <div className="absolute inset-0 bg-[url('/assets/image/library-1.jpg')] bg-center bg-cover blur-sm">
+      {/* Background Image and Overlay */}
+      <div className="absolute inset-0">
+        <div className="bg-[url('/assets/image/library-1.jpg')] bg-center bg-cover blur-sm h-full w-full"></div>
         {/* Overlay */}
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        {/* Background image */}
-        <div className="relative z-10">{/* Your content goes here */}</div>
       </div>
       {/* Error Alert */}
       {error && showErrorAlert && (
@@ -107,7 +107,7 @@ const Page = () => {
         </div>
       )}
       {/* Main Title */}
-      <h1 className="text-lg md:text-2xl font-bold text-slate-200 pl-10 text-left">
+      <h1 className="relative z-10 text-lg md:text-2xl font-bold text-slate-200 pl-10 text-left">
         Book Inventory
       </h1>
       {/* Main Content Area */}
@@ -135,7 +135,7 @@ const Page = () => {
         </section>
       </main>
       {/* Footer */}
-      <footer className="p-4 text-center text-[#d5d8db] text-xs sm:text-sm md:text-base">
+      <footer className="relative z-10 p-4 text-center text-[#d5d8db] text-xs sm:text-sm md:text-base">
         <p>
           &copy; 2024 Book Inventory. All rights reserved by Ali Reza Habibi.
         </p>

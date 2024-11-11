@@ -34,6 +34,7 @@ The Book Management System is a full-stack application designed to manage a book
 
 1. Clone the repository:
    git clone https://github.com/shahreyarhabibi/Book-Inventory.git
+   Navigate to the backend directory:
    cd backend
 
 2. Install dependencies:

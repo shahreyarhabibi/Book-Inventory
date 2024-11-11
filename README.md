@@ -34,15 +34,16 @@ The Book Management System is a full-stack application designed to manage a book
 
 1. Clone the repository:
    git clone https://github.com/shahreyarhabibi/Book-Inventory.git
+    
    Navigate to the backend directory:
    cd backend
 
-2. Install dependencies:
+3. Install dependencies:
    npm install
 
-3. Run the backend server:
+4. Run the backend server:
    npm run start
-4. Access the API at http://localhost:3001/books.
+5. Access the API at http://localhost:3001/books.
 
 ### Frontend Setup
 

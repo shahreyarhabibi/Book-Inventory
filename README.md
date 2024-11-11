@@ -36,25 +36,25 @@ The Book Management System is a full-stack application designed to manage a book
    git clone https://github.com/shahreyarhabibi/Book-Inventory.git
     
    Navigate to the backend directory:
-   cd backend
+   **cd backend**
 
 3. Install dependencies:
-   npm install
+   **npm install**
 
 4. Run the backend server:
-   npm run start
+   **npm run start**
 5. Access the API at http://localhost:3001/books.
 
 ### Frontend Setup
 
 1. Navigate to the frontend directory:
-   cd frontend
+   **cd frontend**
 
 2. Install dependencies:
-   npm install
+   **npm install**
 
 3. Run the frontend application:
-   npm run dev
+   **npm run dev**
 
 4. Access the application at http://localhost:3000
 
@@ -73,7 +73,7 @@ To run the application using Docker, ensure you have Docker and Docker Compose i
 
 1. Navigate to the root directory of the project.
 2. Run the following command to start the services:
-   docker-compose up
+   **docker-compose up**
 3. Access the frontend at http://localhost:3000 and the API at http://localhost:3001.
 
 ### Contributing
